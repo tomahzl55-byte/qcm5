@@ -4,6 +4,11 @@
 ملفات النشر جاهزة في المشروع: `render.yaml`، `requirements.txt`، `runtime.txt`،
 `render_app.py`.
 
+> **المستودع جاهز على GitHub:** https://github.com/tomahzl55-byte/qcm5
+>
+> **نشر بضغطة واحدة:** https://render.com/deploy?repo=https://github.com/tomahzl55-byte/qcm5
+> (سجّل بحساب GitHub → اسمح لـ Render بالوصول للمستودع → الصق `BOT_TOKEN` → **Apply**).
+
 ---
 
 ## 0. قبل البدء (مهم)
@@ -17,9 +22,10 @@
 
 ---
 
-## 1. رفع الكود إلى GitHub
+## 1. رفع الكود إلى GitHub (تمّ مسبقًا)
 
-المشروع ليس مستودع Git بعد. من مجلد المشروع:
+المشروع مرفوع على https://github.com/tomahzl55-byte/qcm5 — لا تحتاج لتكرار هذه
+الخطوة. إن أردت رفعه لمستودع آخر:
 
 ```bash
 git init
@@ -31,7 +37,7 @@ git commit -m "Prepare bot for Render deployment"
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/<USERNAME>/qcm-bot.git
+git remote add origin https://github.com/<USERNAME>/qcm5.git
 git push -u origin main
 ```
 
@@ -45,15 +51,15 @@ git push -u origin main
 ### الطريقة الأسهل: Blueprint (يقرأ `render.yaml` تلقائيًا)
 
 1. سجّل في https://render.com (يمكن الدخول بحساب GitHub).
-2. **New +** → **Blueprint**.
-3. اختر المستودع `qcm-bot` → **Connect**.
-4. سيعرض Render الخدمة `qcm-bot` وكل المتغيرات. اضغط **Apply**.
+2. افتح الرابط الجاهز: https://render.com/deploy?repo=https://github.com/tomahzl55-byte/qcm5
+   (أو **New +** → **Blueprint** → اختر المستودع `qcm5` → **Connect**).
+3. سيعرض Render الخدمة `qcm-bot` وكل المتغيرات. الصق `BOT_TOKEN` ثم اضغط **Apply**.
 
 ### أو يدويًا: New + → Web Service
 
 | الإعداد | القيمة |
 |---|---|
-| Repository | `qcm-bot` |
+| Repository | `qcm5` |
 | Runtime | Python 3 |
 | Build Command | `pip install -r requirements.txt` |
 | Start Command | `python render_app.py` |
