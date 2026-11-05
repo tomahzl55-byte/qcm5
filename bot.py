@@ -45,9 +45,11 @@ signalement :
   - 📚 Question dans la mauvaise leçon
   - ⚠️ Question/options incomplètes
 Chaque signalement est ajouté à reported_questions.json (type, question,
-options, bonne(s) réponse(s), module/leçon, utilisateur, date). La commande
-/reports renvoie ce fichier (réservée aux ADMIN_USER_IDS). Aucune
-notification n'est envoyée à l'admin : il consulte simplement le fichier.
+options, bonne(s) réponse(s), module/leçon, utilisateur, date) ET envoyé
+immédiatement en message privé à chaque admin (ADMIN_USER_IDS), pour qu'il
+soit visible directement dans Telegram même si le fichier est perdu (Render
+gratuit) ou si l'admin n'a pas accès au serveur. La commande /reports renvoie
+toujours le fichier complet.
 
 === PANNEAU ADMIN (/admin) ===
   - Liste paginée des utilisateurs du bot (bot_users.json), recherche par
@@ -652,6 +654,86 @@ async def save_report(record: dict):
             logger.error("Impossible d'écrire dans %s : %s", REPORTS_FILE, e)
 
 
+def _clip_text(value, limit: int) -> str:
+    """Réduit un texte trop long avant l'échappement HTML."""
+    text = "" if value is None else str(value)
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def format_report_message(record: dict) -> str:
+    """Construit le message HTML envoyé aux admins pour un signalement."""
+    def esc(value) -> str:
+        return html.escape(str(value)) if value not in (None, "") else "—"
+
+    correct = {str(o) for o in (record.get("correct_options") or [])}
+    options = record.get("options") or []
+
+    lines = [
+        "🚩 <b>Nouveau signalement</b>",
+        "",
+        f"<b>Type :</b> {esc(record.get('report_type_label') or record.get('report_type'))}",
+        f"<b>Date :</b> {esc(record.get('date'))}",
+        f"<b>Utilisateur :</b> {esc(record.get('username'))} "
+        f"(ID <code>{esc(record.get('user_id'))}</code>)",
+    ]
+    if record.get("module"):
+        lines.append(f"<b>Module :</b> {html.escape(str(record['module']))}")
+    if record.get("path"):
+        lines.append(
+            "<b>Leçon :</b> "
+            + html.escape(" › ".join(str(p) for p in record["path"]))
+        )
+    if record.get("quiz_label"):
+        lines.append(f"<b>Quiz :</b> {html.escape(str(record['quiz_label']))}")
+
+    lines += [
+        "",
+        "<b>Question :</b>\n" + html.escape(_clip_text(record.get("question"), 1200)),
+        "",
+        "<b>Options :</b>",
+    ]
+    for i, opt in enumerate(options):
+        letter = LETTERS[i] if i < len(LETTERS) else str(i + 1)
+        mark = " ✅" if str(opt) in correct else ""
+        lines.append(f"{letter}. {html.escape(_clip_text(opt, 400))}{mark}")
+
+    text = "\n".join(lines)
+    if len(text) > TG_MESSAGE_MAX:
+        cut = text.rfind("\n", 0, TG_MESSAGE_MAX - 10)
+        text = text[: cut if cut > 0 else TG_MESSAGE_MAX - 10] + "\n…"
+    return text
+
+
+async def notify_admins_about_report(bot, record: dict) -> None:
+    """Envoie le signalement en message privé à chaque admin (ADMIN_USER_IDS).
+
+    Un échec d'envoi (admin qui n'a jamais démarré le bot, bot bloqué, etc.)
+    est seulement journalisé : cela ne doit jamais empêcher l'utilisateur de
+    signaler une question ni bloquer la suite du quiz."""
+    if not ADMIN_USER_IDS:
+        logger.warning("ADMIN_USER_IDS vide : signalement enregistré sans notification.")
+        return
+
+    text = format_report_message(record)
+    for admin_id in sorted(ADMIN_USER_IDS):
+        try:
+            await call_with_retry(
+                lambda aid=admin_id: bot.send_message(chat_id=aid, text=text, parse_mode="HTML"),
+                label="send_message(signalement admin)",
+            )
+            logger.info("Signalement envoyé à l'admin %s", admin_id)
+        except Forbidden:
+            logger.warning(
+                "Signalement non envoyé à l'admin %s : ce compte doit d'abord "
+                "démarrer le bot (envoyer /start).",
+                admin_id,
+            )
+        except BadRequest as e:
+            logger.error("Signalement non envoyé à l'admin %s (requête refusée) : %s", admin_id, e)
+        except Exception as e:
+            logger.error("Signalement non envoyé à l'admin %s : %s", admin_id, e)
+
+
 def cleanup_question_context(context: ContextTypes.DEFAULT_TYPE = None):
     """Supprime les contextes de question trop anciens pour éviter une fuite
     mémoire sur un processus qui tourne longtemps avec beaucoup d'utilisateurs."""
@@ -723,7 +805,8 @@ async def handle_report_cancel(update: Update, context: ContextTypes.DEFAULT_TYP
 async def handle_report_type(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Clic sur un type de signalement : enregistre le signalement (type,
     question, options, bonne(s) réponse(s), module/leçon) dans
-    reported_questions.json. Aucune notification n'est envoyée à l'admin."""
+    reported_questions.json, puis l'envoie en message privé aux admins
+    (ADMIN_USER_IDS) pour qu'ils le voient directement dans Telegram."""
     query = update.callback_query
     try:
         _, token, type_key = query.data.split(":", 2)
@@ -762,6 +845,14 @@ async def handle_report_type(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer("🚩 Merci, la question a été signalée pour relecture.", show_alert=True)
     await _edit_markup(query, build_question_button_markup(token), "edit_markup(report done)")
 
+    # Notification des admins en tâche de fond : l'utilisateur a déjà sa
+    # confirmation, et un souci d'envoi ne bloque ni le quiz ni les messages
+    # suivants de ce même utilisateur.
+    context.application.create_task(
+        notify_admins_about_report(context.bot, record),
+        update=update,
+    )
+
 
 async def cmd_reports(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Commande /reports : envoie le fichier des questions signalées (si
@@ -772,7 +863,11 @@ async def cmd_reports(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     if not os.path.exists(REPORTS_FILE):
-        await update.message.reply_text("Aucune question signalée pour le moment.")
+        await update.message.reply_text(
+            "Aucun signalement dans le fichier pour l'instant "
+            "(il est vidé à chaque redéploiement sur Render).\n"
+            "Les signalements déjà reçus restent dans tes messages privés avec le bot."
+        )
         return
 
     try:
