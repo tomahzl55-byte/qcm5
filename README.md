@@ -5,9 +5,10 @@ profondeur libre, avec :
 
 - navigation par clavier persistant (module → dossier → … → questions) ;
 - réponses correctes cachées sous un **spoiler** ;
-- bouton **🚩 Signaler** sous chaque question (chaque signalement est aussi
-  envoyé en message privé aux admins, en plus d'être enregistré dans
-  `reported_questions.json`) ;
+- bouton **🚩 Signaler** sous chaque question : chaque signalement est envoyé
+  en message privé aux admins et peut être **corrigé directement depuis
+  Telegram** (texte, options, bonne réponse, suppression), avec commit GitHub
+  optionnel pour survivre aux redéploiements ;
 - génération d'un **examen HTML autonome** (correction en JavaScript) ;
 - panneau admin (`/admin`, `/send`, `/reports`) ;
 - abonnement obligatoire à une chaîne Telegram.

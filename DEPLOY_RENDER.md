@@ -76,8 +76,11 @@ git push -u origin main
 |---|---|
 | `BOT_TOKEN` | التوكن الجديد من @BotFather (**إلزامي**) |
 | `REQUIRED_CHANNEL` | `@qcMAX_batna` (أو اتركه فارغًا لتعطيل شرط الاشتراك) |
-| `ADMIN_USER_IDS` | `5696844039` (عدة أرقام مفصولة بفواصل) |
+| `ADMIN_USER_IDS` | `5696844039,5435592397` (عدة أرقام مفصولة بفواصل) |
 | `WEBHOOK_SECRET` | يُولّده Render تلقائيًا (لا تلمسه) |
+| `GITHUB_TOKEN` | اختياري: لحفظ تصحيحات الأسئلة على GitHub |
+| `GITHUB_REPO` | `tomahzl55-byte/qcm5` |
+| `GITHUB_BRANCH` | `main` |
 
 `PORT` و`RENDER_EXTERNAL_URL` يضيفهما Render تلقائيًا.
 
@@ -144,6 +147,20 @@ git push -u origin main
   الكود ليحفظ المستخدمين والإبلاغات فيها بدل الملفات.
 - Render Postgres المجاني متاح لكنه **ينتهي بعد 30 يومًا** من إنشائه، فلا يصلح
   للحفظ الدائم.
+
+### تصحيح سؤال مُبلَّغ عنه من تلجرام
+
+رسالة الإبلاغ التي تصلك كأدمن تحتوي أزرارًا: **✏️ Texte**، **🔤 Options**،
+**✅ Bonne réponse**، **🗑️ Supprimer**. بعد الإصلاح:
+
+- يُعدَّل الملف `data/*.json` على الخدمة فورًا؛
+- إن كان `GITHUB_TOKEN` مضبوطًا، يُرفَع التعديل إلى GitHub ويُعيد Render النشر
+  تلقائيًا، فيبقى التصحيح دائمًا؛
+- بدون `GITHUB_TOKEN` يظل التعديل مؤقتًا ويُفقد عند إعادة النشر.
+
+لإنشاء `GITHUB_TOKEN`: https://github.com/settings/tokens?type=beta →
+**Only select repositories** → `qcm5` → صلاحية **Contents: Read and write** →
+انسخه إلى Render → Environment.
 
 ---
 
