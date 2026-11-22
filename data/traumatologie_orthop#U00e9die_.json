@@ -68,6 +68,24 @@
         ]
       },
       "Généralités des fractures de l'adulte": {
+        "2027": [
+          {
+            "question": "Après une fracture du membre supérieur, quelles mesures font partie de l’examen initial ?",
+            "options": [
+              "Évaluer la coloration, la chaleur et la perfusion distale.",
+              "Tester la sensibilité et la motricité des territoires nerveux concernés.",
+              "Attendre la radiographie avant de rechercher une ischémie manifeste.",
+              "Documenter l’état vasculo-nerveux avant et après réduction ou immobilisation."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "L'attitude de Dessault se décrit par : cochez les réponses fausses",
@@ -750,6 +768,153 @@
         ]
       },
       "Infections ostéo-articulaires": {
+        "2027": [
+          {
+            "question": "Cochez la ou les bonnes réponses",
+            "options": [
+              "L’aspect fusiforme très évocateur de la PR, est une tuméfaction isolée de la MCP du doigt",
+              "Le mode début le plus fréquent de la PR chez le sujet âgé et l’atteinte des ceintures scapulaire et pelvienne",
+              "Aux membres inférieurs, l’atteinte de l’IPP du 5ème orteil est la plus précoce et typique de la PR",
+              "La destruction ostéo-articulaire lors de la PR est due à la sécrétion excessive des enzymes protéolytiques (comme les métalloprotéases) par les chondrocytes"
+            ],
+            "correct_option_ids": [
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Cochez la ou les bonnes réponses",
+            "options": [
+              "L’hypersécrétion physiologique des œstrogènes lors de la grossesse est facteur protecteur contre la PR",
+              "La sévérité de la PR chez les tabagiques chroniques est liée à la présence fréquente du FR",
+              "La déformation en col de cygne est due à une hyperflexion de l’IPP et une extension de l’IPD",
+              "Le syndrome de Felty se complique le plus souvent d’infections"
+            ],
+            "correct_option_ids": [
+              0,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Cochez la ou les bonnes réponses",
+            "options": [
+              "Le méthotrexate est un traitement de fond de première intention de la PR",
+              "Les corticoïdes per os à la posologie ≤ 10 mg/jour est un traitement symptomatique de la PR",
+              "Le tocilizumab est un traitement de fond de la PR agissant en inhibant le TNF alpha",
+              "Le tofacitinib, traitement de fond de la PR est une thérapie ciblée biologique"
+            ],
+            "correct_option_ids": [
+              0,
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Cochez la ou les bonnes réponses",
+            "options": [
+              "La PR est plus rare chez l’homme mais souvent plus sévère que chez la femme",
+              "L’IDM est la cause la plus fréquente de décès chez les patients atteint de PR à cause d’une hyperlipidémie souvent associée à la PR",
+              "Le pincement de l’interligne articulaire sur les radiographies de la PR est dû à une destruction du cartilage",
+              "Le syndrome de Caplan Colinet est une PR fréquente chez l’homme associée à une silicose"
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Cochez la ou les bonnes réponses",
+            "options": [
+              "La sacroiliite unilatérale est plus évocatrice d’une cause infectieuse",
+              "L’atteinte du rachis cervical est l’atteinte rachidienne la plus précoce et la fréquente de la SPA",
+              "Les talalgies postérieures sont la douleur de l’enthésite du tendon d’Achille",
+              "Le test de Schöber évalue la souplesse du rachis dorsal"
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "L’ostéoporose est caractérisée par :",
+            "options": [
+              "Un défaut de minéralisation de la matrice osseuse nouvellement formée.",
+              "Une diminution de la masse osseuse associée à une altération de la microarchitecture osseuse.",
+              "Une augmentation de la masse osseuse avec fragilité accrue.",
+              "Une inflammation diffuse du tissu osseux."
+            ],
+            "correct_option_ids": [
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Parmi les propositions suivantes, laquelle constitue un facteur de risque d’ostéoporose primitive ?",
+            "options": [
+              "Un IMC supérieur à 30 kg/m².",
+              "Une activité physique régulière.",
+              "Un IMC inférieur à 19 kg/m².",
+              "Un apport vitamino-calcique suffisant."
+            ],
+            "correct_option_ids": [
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "L’anomalie fondamentale de l’ostéomalacie est :",
+            "options": [
+              "Une diminution de la résorption osseuse.",
+              "Une altération isolée de la microarchitecture osseuse.",
+              "Un défaut de minéralisation de la matrice osseuse nouvellement formée.",
+              "Une augmentation excessive de la minéralisation osseuse."
+            ],
+            "correct_option_ids": [
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quel signe radiologique est caractéristique de l’ostéomalacie ?",
+            "options": [
+              "Les ostéophytes marginaux.",
+              "Les fissures de Looser-Milkman.",
+              "Les érosions osseuses marginales.",
+              "La fusion des articulations sacro-iliaques."
+            ],
+            "correct_option_ids": [
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quel profil biologique est typiquement évocateur d’une ostéomalacie carentielle en vitamine D ?",
+            "options": [
+              "Vitamine D basse, phosphatases alcalines élevées et PTH élevée.",
+              "Vitamine D élevée, phosphatases alcalines basses et PTH basse.",
+              "Vitamine D normale, phosphatases alcalines basses et PTH élevée.",
+              "Vitamine D élevée, phosphatases alcalines élevées et PTH basse."
+            ],
+            "correct_option_ids": [
+              0
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Un panaris de la pulpe du doigt va diffuser son infection préférentiellement :",
@@ -2809,6 +2974,40 @@
         ]
       },
       "Syndrome des loges et syndrome de Volkmann": {
+        "2027": [
+          {
+            "question": "Un patient présente une fracture de jambe immobilisée. Quelques heures plus tard, la douleur devient intense malgré les antalgiques et augmente lors de l’extension passive des orteils.",
+            "options": [
+              "Un syndrome de loge aigu doit être suspecté.",
+              "La présence d’un pouls pédieux palpable élimine ce diagnostic.",
+              "Il faut desserrer immédiatement tout dispositif compressif et procéder à une évaluation urgente.",
+              "En cas de syndrome de loge confirmé, une fasciotomie urgente peut être nécessaire."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quels signes peuvent évoquer un syndrome des loges aigu de l’avant-bras ?",
+            "options": [
+              "Une douleur disproportionnée.",
+              "Une douleur à l’étirement passif des doigts.",
+              "L’absence obligatoire des pouls radiaux et ulnaires au début.",
+              "Des troubles sensitifs progressifs."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Laquelle des propositions correspond le mieux à une séquelle tardive D un syndrome de loge …..",
@@ -3789,6 +3988,68 @@
     },
     "Traumatologie du membre supérieur": {
       "Fracture de l'extrémité supérieure de l'humérus & fracture de la diaphyse humérale": {
+        "2027": [
+          {
+            "question": "Chez le sujet âgé, les fractures de l’extrémité proximale de l’humérus :",
+            "options": [
+              "Peuvent survenir après une chute de sa propre hauteur.",
+              "Sont toujours ouvertes.",
+              "Peuvent être associées à une lésion du nerf axillaire.",
+              "Sont toujours traitées par prothèse d’épaule."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures diaphysaires de l’humérus :",
+            "options": [
+              "Elles peuvent être associées à une atteinte du nerf radial.",
+              "Elles provoquent systématiquement une paralysie du nerf médian.",
+              "L’examen moteur de l’extension du poignet et des doigts est important.",
+              "Elles nécessitent toujours une prothèse humérale."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Une fracture de la diaphyse humérale est accompagnée d’une difficulté à relever le poignet. Quel nerf est principalement suspecté ?",
+            "options": [
+              "Le nerf ulnaire.",
+              "Le nerf axillaire.",
+              "Le nerf radial.",
+              "Le nerf obturateur."
+            ],
+            "correct_option_ids": [
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures proximales de l’humérus :",
+            "options": [
+              "Elles sont fréquentes chez les personnes âgées après une chute de leur hauteur.",
+              "L’ostéoporose constitue un facteur de risque.",
+              "L’examen du nerf axillaire est important.",
+              "Toutes ces fractures nécessitent obligatoirement une prothèse d’épaule."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "La fracture du col chirurgical de l'humérus :",
@@ -4544,6 +4805,83 @@
         ]
       },
       "Fractures des deux os de l'avant bras": {
+        "2027": [
+          {
+            "question": "La lésion de Monteggia associe :",
+            "options": [
+              "Une fracture de l’ulna.",
+              "Une fracture isolée du scaphoïde.",
+              "Une luxation de la tête radiale.",
+              "Une fracture de la malléole médiale."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "La lésion de Galeazzi associe :",
+            "options": [
+              "Une fracture de la diaphyse radiale, généralement dans son tiers distal.",
+              "Une atteinte de l’articulation radio-ulnaire distale.",
+              "Une luxation de la rotule.",
+              "Une fracture isolée du calcanéus."
+            ],
+            "correct_option_ids": [
+              0,
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Chez l’adulte, une fracture déplacée des diaphyses du radius et de l’ulna :",
+            "options": [
+              "Peut compromettre la prono-supination.",
+              "Ne nécessite jamais de réduction anatomique.",
+              "Relève fréquemment d’une ostéosynthèse par plaques vissées.",
+              "Ne peut pas entraîner de syndrome des loges."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les lésions de Monteggia chez l’enfant :",
+            "options": [
+              "Elles associent une fracture ou une déformation plastique de l’ulna à une luxation de la tête radiale.",
+              "Elles intéressent exclusivement le fémur.",
+              "Elles peuvent être méconnues si l’on ne vérifie pas l’alignement radiocapitellaire.",
+              "Elles ne nécessitent jamais de surveillance radiographique."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos de la fracture de Galeazzi :",
+            "options": [
+              "Elle associe une fracture radiale diaphysaire à une atteinte de l’articulation radio-ulnaire distale.",
+              "Elle associe une fracture du tibia à une luxation de cheville.",
+              "La stabilité de l’articulation radio-ulnaire distale doit être vérifiée après fixation du radius.",
+              "Elle est toujours traitée par simple bandage chez l’adulte."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Lors de la pronation, le pouce regarde en :",
@@ -5381,6 +5719,39 @@
         ]
       },
       "Fractures du scaphoïde": {
+        "2027": [
+          {
+            "question": "Concernant les fractures du scaphoïde carpien :",
+            "options": [
+              "Elles surviennent fréquemment après une chute sur la main en extension.",
+              "Elles provoquent toujours une déformation visible du poignet.",
+              "Une douleur à la palpation de la tabatière anatomique est évocatrice.",
+              "Une radiographie initiale normale exclut formellement la fracture."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quelles sont les complications possibles d’une fracture du scaphoïde ?",
+            "options": [
+              "La pseudarthrose.",
+              "La nécrose avasculaire, notamment du fragment proximal.",
+              "Une coxarthrose immédiate.",
+              "L’arthrose du poignet à long terme."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Une douleur à la palpation de la \"tabatière anatomique\" après une chute fait suspecter en priorité :",
@@ -5616,6 +5987,214 @@
         ]
       },
       "Traumatismes de l'épaule": {
+        "2027": [
+          {
+            "question": "Concernant les fractures de la clavicule :",
+            "options": [
+              "Elles siègent le plus souvent au tiers moyen.",
+              "Elles sont toujours ouvertes.",
+              "Elles peuvent être associées à des lésions neurovasculaires.",
+              "Elles nécessitent toutes une ostéosynthèse."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quelles sont les complications possibles d’une fracture de la clavicule ?",
+            "options": [
+              "La pseudarthrose.",
+              "Le cal vicieux.",
+              "Une lésion neurovasculaire dans les fractures complexes.",
+              "Une rupture systématique de l’artère fémorale."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Après une luxation antérieure de l’épaule, quel élément clinique évoque une atteinte du nerf axillaire ?",
+            "options": [
+              "Une paralysie isolée des muscles intrinsèques de la main.",
+              "Une hypoesthésie de la face latérale de l’épaule.",
+              "Une faiblesse du deltoïde.",
+              "Une paralysie du nerf facial."
+            ],
+            "correct_option_ids": [
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant la luxation gléno-humérale antérieure, quelles propositions sont exactes ?",
+            "options": [
+              "C’est la forme la plus fréquente des luxations de l’épaule.",
+              "Elle survient habituellement lors d’un mécanisme d’abduction et de rotation externe.",
+              "Elle peut s’accompagner d’une lésion du nerf axillaire.",
+              "Elle est toujours associée à une fracture de la tête humérale."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Lors de l’examen initial d’une luxation antérieure de l’épaule :",
+            "options": [
+              "Le patient présente souvent une attitude du membre supérieur en abduction légère et rotation externe.",
+              "L’inspection peut retrouver une déformation en « épaulette ».",
+              "L’examen vasculo-nerveux doit être réalisé avant et après la réduction.",
+              "L’absence de déficit sensitif élimine toute lésion du nerf axillaire."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos de l’imagerie d’une luxation gléno-humérale :",
+            "options": [
+              "Les radiographies permettent de confirmer la luxation et de rechercher une fracture associée.",
+              "Les incidences de face et de profil axillaire, ou une incidence adaptée, aident à préciser la direction de la luxation.",
+              "Le scanner est systématiquement indispensable avant toute réduction.",
+              "Le scanner peut être utile en cas de fracture associée ou de perte osseuse importante."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant le traitement d’une luxation antérieure :",
+            "options": [
+              "Une analgésie adaptée est importante avant la réduction.",
+              "La réduction doit être réalisée par un professionnel formé, avec surveillance adaptée.",
+              "Il faut toujours utiliser une force importante pour obtenir la réduction.",
+              "Un contrôle clinique et radiographique après réduction est nécessaire."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures de la clavicule, quelles propositions sont exactes ?",
+            "options": [
+              "Elles surviennent fréquemment après une chute sur l’épaule.",
+              "Le tiers moyen est la localisation la plus fréquente.",
+              "Toute fracture de la clavicule nécessite une ostéosynthèse.",
+              "Il faut rechercher une complication cutanée et neurovasculaire."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant le traitement des fractures de la clavicule :",
+            "options": [
+              "Une fracture peu déplacée peut généralement être traitée par une immobilisation antalgique.",
+              "Une fracture ouverte constitue une indication chirurgicale urgente.",
+              "Un raccourcissement important, un déplacement majeur ou une menace cutanée peuvent faire discuter une chirurgie.",
+              "Le bandage en huit est toujours supérieur à l’écharpe simple."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Complications des fractures de la clavicule",
+            "options": [
+              "La pseudarthrose.",
+              "Le cal vicieux.",
+              "Une complication neurovasculaire, rare mais possible.",
+              "Une rupture systématique du nerf radial."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos des lésions acromio-claviculaires :",
+            "options": [
+              "Elles surviennent fréquemment après un choc direct sur le moignon de l’épaule.",
+              "Les ligaments acromio-claviculaires et coraco-claviculaires contribuent à la stabilité de l’articulation.",
+              "Une saillie de l’extrémité latérale de la clavicule peut être observée.",
+              "Toutes les disjonctions nécessitent une chirurgie."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant la classification de Rockwood des lésions acromio-claviculaires :",
+            "options": [
+              "Le type I correspond à une entorse sans déplacement significatif.",
+              "Le type II comporte une atteinte des ligaments acromio-claviculaires avec atteinte partielle ou fonctionnelle du complexe coraco-claviculaire.",
+              "Le type III comporte une rupture des ligaments acromio-claviculaires et coraco-claviculaires, avec déplacement supérieur de la clavicule.",
+              "Le type VI correspond à la forme la moins sévère."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Prise en charge d’une disjonction acromio-claviculaire",
+            "options": [
+              "Les types I et II sont généralement traités sans chirurgie.",
+              "Le traitement des types IV, V et VI est souvent chirurgical.",
+              "Le type III nécessite une décision individualisée selon les symptômes, les besoins fonctionnels et le contexte.",
+              "Une radiographie ne présente aucun intérêt diagnostique."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Une fracture du tiers moyen de la clavicule :",
@@ -7261,6 +7840,38 @@
         ]
       },
       "Traumatismes de la main & traumatisme du poignet et fractures de l'extrémité inférieure de radius": {
+        "2027": [
+          {
+            "question": "Concernant la fracture de Pouteau-Colles :",
+            "options": [
+              "Elle siège à l’extrémité distale du radius.",
+              "Elle se caractérise classiquement par un déplacement postérieur du fragment distal.",
+              "Elle correspond à une fracture de la diaphyse ulnaire.",
+              "Elle survient fréquemment après une chute sur la main en extension."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Après une fracture déplacée de l’extrémité distale du radius, le patient présente des paresthésies progressives du pouce, de l’index et du majeur, associées à une douleur croissante. Quelle complication faut-il suspecter ?",
+            "options": [
+              "Une lésion isolée du nerf radial au bras.",
+              "Un syndrome du canal carpien aigu.",
+              "Une rupture du tendon d’Achille.",
+              "Une fracture du plateau tibial."
+            ],
+            "correct_option_ids": [
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "La fracture déplacée de l'ulna chez l'adulte :",
@@ -8798,6 +9409,196 @@
         ]
       },
       "Traumatismes du coude": {
+        "2027": [
+          {
+            "question": "Un enfant de 7 ans chute sur le coude. La radiographie montre une fracture supracondylienne déplacée.",
+            "options": [
+              "Il faut rechercher une atteinte de l’artère brachiale et des nerfs médian, radial et ulnaire.",
+              "Une main chaude et bien colorée dispense de tout examen vasculaire.",
+              "Une fracture déplacée nécessite une prise en charge orthopédique urgente.",
+              "Une main froide, pâle ou mal perfusée impose une évaluation vasculaire immédiate."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures supracondyliennes de l’humérus chez l’enfant :",
+            "options": [
+              "Elles sont fréquentes après une chute sur la main.",
+              "Elles sont toujours sans risque vasculaire.",
+              "Elles peuvent léser l’artère brachiale.",
+              "L’examen des nerfs médian, radial et ulnaire est indispensable."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Parmi les complications possibles des fractures supracondyliennes de l’enfant, on retrouve :",
+            "options": [
+              "Le syndrome des loges de l’avant-bras.",
+              "La déformation en cubitus varus.",
+              "Une ischémie de l’avant-bras pouvant évoluer vers une contracture de Volkmann.",
+              "Une coxarthrose immédiate."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures de l’olécrâne :",
+            "options": [
+              "Elles peuvent interrompre l’appareil extenseur du coude.",
+              "Elles n’affectent jamais l’extension active.",
+              "L’examen de l’extension active du coude est important.",
+              "Elles siègent au niveau du poignet."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Après une chute sur la main, un patient présente une douleur latérale du coude et une limitation de la prono-supination. Quelle lésion faut-il rechercher ?",
+            "options": [
+              "Une fracture de la rotule.",
+              "Une fracture de la tête radiale.",
+              "Une fracture du col fémoral.",
+              "Une rupture du tendon d’Achille."
+            ],
+            "correct_option_ids": [
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures de la tête radiale :",
+            "options": [
+              "Il faut rechercher une lésion de l’articulation radio-ulnaire distale en cas de douleur de l’avant-bras ou du poignet.",
+              "Elles sont toujours isolées.",
+              "Elles peuvent s’intégrer dans une lésion d’Essex-Lopresti.",
+              "Elles ne nécessitent jamais d’examen clinique du poignet."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les luxations du coude :",
+            "options": [
+              "La luxation postérieure est la forme la plus fréquente.",
+              "Elles ne peuvent jamais être associées à une fracture.",
+              "Il faut vérifier l’état vasculaire et neurologique avant et après réduction.",
+              "Une radiographie après réduction permet de contrôler la congruence articulaire."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures de l’olécrâne :",
+            "options": [
+              "Elles peuvent survenir après une chute directe sur le coude.",
+              "Elles peuvent compromettre le mécanisme extenseur du coude.",
+              "Elles sont toujours traitées par immobilisation simple, quel que soit le déplacement.",
+              "La capacité d’extension active du coude doit être évaluée."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Traitement des fractures de l’olécrâne. Quelles propositions sont exactes ?",
+            "options": [
+              "Une fracture non déplacée avec mécanisme extenseur fonctionnel peut relever d’un traitement orthopédique.",
+              "Une fracture déplacée avec perte de l’extension active peut nécessiter une ostéosynthèse.",
+              "Les techniques d’ostéosynthèse comprennent notamment le haubanage et les plaques vissées.",
+              "L’ablation du matériel est obligatoire chez tous les patients."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos des fractures de la tête radiale :",
+            "options": [
+              "Elles surviennent fréquemment après une chute sur la main, coude en extension.",
+              "Une douleur à la pronation-supination peut être évocatrice.",
+              "Il faut rechercher une limitation mécanique de la mobilité.",
+              "Elles sont toujours visibles sur les premières radiographies standards."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Prise en charge d’une luxation simple du coude. Quelles propositions sont exactes ?",
+            "options": [
+              "La réduction doit être réalisée rapidement par un professionnel formé, avec analgésie adaptée.",
+              "La stabilité articulaire doit être évaluée après réduction.",
+              "Une mobilisation progressive précoce est généralement privilégiée lorsque la stabilité le permet.",
+              "Une immobilisation prolongée est toujours souhaitable pour éviter la raideur."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "La triade terrible du coude associe :",
+            "options": [
+              "Une luxation du coude.",
+              "Une fracture de la tête radiale.",
+              "Une fracture du processus coronoïde.",
+              "Une fracture de la clavicule."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2025": [
           {
             "question": "Concernant les fractures supracondyliennes de l'humérus chez l'enfant",
@@ -9637,6 +10438,84 @@
         ]
       },
       "Fracture de l'extrémité supérieure du fémur": {
+        "2027": [
+          {
+            "question": "Une femme de 82 ans chute à domicile. Elle présente une douleur inguinale, une impotence fonctionnelle et un membre inférieur en rotation externe.",
+            "options": [
+              "Une fracture du col fémoral doit être suspectée.",
+              "Une radiographie initiale normale exclut toujours une fracture.",
+              "Des radiographies du bassin et de la hanche sont indiquées en première intention.",
+              "Si les radiographies sont normales mais que la suspicion clinique persiste, une IRM ou, selon les disponibilités et le contexte, un scanner est indiqué."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures du col fémoral chez l’adulte, quelles propositions sont exactes ?",
+            "options": [
+              "Elles peuvent compromettre la vascularisation de la tête fémorale.",
+              "Elles consolident toujours rapidement sans complication.",
+              "Elles exposent au risque de pseudarthrose.",
+              "Elles ne nécessitent jamais de traitement chirurgical."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos des fractures sous-trochantériennes du fémur :",
+            "options": [
+              "Elles sont soumises à des contraintes mécaniques importantes.",
+              "Elles consolident toujours sans difficulté.",
+              "Le traitement repose fréquemment sur un clou centromédullaire adapté.",
+              "Elles siègent exclusivement chez l’enfant."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "La classification de Garden des fractures du col fémoral repose principalement sur :",
+            "options": [
+              "Le degré de déplacement fracturaire.",
+              "La localisation sous-trochantérienne.",
+              "L’aspect du déplacement sur les radiographies.",
+              "La présence d’une fracture de la rotule associée."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures pertrochantériennes :",
+            "options": [
+              "Elles sont fréquentes chez le sujet âgé ostéoporotique.",
+              "Elles sont toujours intracapsulaires.",
+              "Elles peuvent être traitées par ostéosynthèse.",
+              "Elles ne peuvent jamais entraîner de perte sanguine importante."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Une fracture du col fémoral classée Garden II est :",
@@ -11430,6 +12309,24 @@
         ]
       },
       "Les traumatismes vertébro médullaires": {
+        "2027": [
+          {
+            "question": "Après un accident de la voie publique, un patient présente une douleur rachidienne et une faiblesse des deux membres inférieurs.",
+            "options": [
+              "Il faut considérer une lésion médullaire jusqu’à preuve du contraire.",
+              "Il faut mobiliser le rachis pour déterminer précisément le niveau douloureux.",
+              "Une immobilisation adaptée et une évaluation neurologique documentée sont nécessaires.",
+              "Une imagerie urgente est indiquée selon le contexte, généralement un scanner pour le bilan osseux et une IRM si une atteinte médullaire, ligamentaire ou compressive est suspectée."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "La sciatique par hernie discale L5-S1 irradie préférentiellement :",
@@ -11748,6 +12645,24 @@
         ]
       },
       "Luxation de la hanche et fracture du cotyle": {
+        "2027": [
+          {
+            "question": "Après un accident automobile, un patient présente une hanche douloureuse, fléchie, en adduction et en rotation interne.",
+            "options": [
+              "Une luxation postérieure de hanche doit être évoquée.",
+              "Il faut attendre plusieurs jours avant de réduire la luxation.",
+              "Il faut rechercher une atteinte du nerf sciatique.",
+              "Une réduction urgente est nécessaire, généralement sous anesthésie adaptée, après l’évaluation initiale et sans retard injustifié."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "La luxation postérieure de la hanche peut se compliquer de toutes ces complications sauf Laquelle ?",
@@ -12193,6 +13108,147 @@
         ]
       },
       "Traumatisme du genou & fracture de l'extrémité inférieure du fémur": {
+        "2027": [
+          {
+            "question": "Concernant les fractures de la rotule :",
+            "options": [
+              "Elles peuvent interrompre l’appareil extenseur du genou.",
+              "Elles ne nécessitent jamais de radiographie.",
+              "L’impossibilité d’effectuer une élévation active de la jambe tendue évoque une atteinte de l’appareil extenseur.",
+              "Toutes les fractures doivent obligatoirement être traitées par prothèse."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos des fractures du plateau tibial :",
+            "options": [
+              "Elles peuvent être associées à des lésions méniscales ou ligamentaires.",
+              "L’évaluation vasculo-nerveuse distale est indispensable.",
+              "Elles n’atteignent jamais la surface articulaire.",
+              "Le scanner peut être utile pour préciser la morphologie fracturaire et planifier la chirurgie."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures de l’extrémité inférieure du fémur chez l’adulte :",
+            "options": [
+              "Elles peuvent être articulaires ou extra-articulaires.",
+              "Elles ne surviennent que chez les sujets âgés.",
+              "Elles peuvent être associées à des lésions vasculaires.",
+              "Elles ne nécessitent jamais de traitement chirurgical."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Parmi les propositions suivantes concernant la fracture supracondylienne du fémur, lesquelles sont exactes ?",
+            "options": [
+              "Elle siège au-dessus des condyles fémoraux.",
+              "Elle atteint obligatoirement la surface articulaire.",
+              "Elle peut menacer les structures vasculaires poplitées.",
+              "Elle est toujours traitée par simple bandage."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les entorses du genou :",
+            "options": [
+              "Elles peuvent être associées à une lésion ligamentaire.",
+              "Elles sont toujours bénignes.",
+              "L’examen recherche notamment une laxité ligamentaire.",
+              "Une radiographie normale exclut toute lésion ligamentaire."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Quelles propositions concernant la rupture du ligament croisé antérieur (LCA) sont exactes ?",
+            "options": [
+              "Elle peut survenir lors d’un pivot du genou.",
+              "Elle peut provoquer une sensation de dérobement du genou.",
+              "Elle entraîne systématiquement une fracture du fémur.",
+              "Le test de Lachman contribue au diagnostic clinique."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos du ligament croisé postérieur (LCP) :",
+            "options": [
+              "Il limite le déplacement postérieur du tibia par rapport au fémur.",
+              "Il limite exclusivement la translation antérieure du tibia.",
+              "Un traumatisme direct sur la face antérieure du tibia fléchi peut le léser.",
+              "Il est situé en dehors de l’articulation du genou."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les lésions méniscales du genou :",
+            "options": [
+              "Elles peuvent provoquer une douleur de l’interligne articulaire.",
+              "Elles peuvent s’accompagner de blocages mécaniques.",
+              "Toute lésion méniscale impose une méniscectomie totale.",
+              "L’IRM peut contribuer au diagnostic."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Face à une luxation traumatique du genou :",
+            "options": [
+              "Une lésion de l’artère poplitée est possible.",
+              "La présence d’un pouls distal normal exclut formellement toute lésion artérielle.",
+              "La réduction urgente est généralement nécessaire.",
+              "Une surveillance vasculaire répétée est indispensable."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Les fractures du plateau tibial sont des fractures articulaires de l'extrémité supérieure du tibia. Dans la fracture séparation uni-tubérositaire externe :",
@@ -12754,6 +13810,54 @@
         ]
       },
       "Traumatismes du coup du pieds": {
+        "2027": [
+          {
+            "question": "À propos des fractures bimalléolaires de la cheville :",
+            "options": [
+              "Elles concernent les malléoles médiale et latérale.",
+              "Elles sont toujours stables.",
+              "Elles peuvent entraîner une instabilité de la mortaise tibio-talienne.",
+              "Elles ne nécessitent jamais de contrôle radiographique."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Une fracture trimalléolaire de la cheville comporte généralement :",
+            "options": [
+              "Une fracture de la malléole médiale.",
+              "Une fracture de la malléole latérale.",
+              "Une fracture de la malléole postérieure.",
+              "Une fracture obligatoire de la rotule."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant les fractures du pilon tibial :",
+            "options": [
+              "Elles intéressent la surface articulaire distale du tibia.",
+              "Elles sont toujours extra-articulaires.",
+              "Elles peuvent s’accompagner de lésions importantes des parties molles.",
+              "Elles ne présentent aucun risque d’arthrose secondaire."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Concernant la fracture de la malléole médiale, quelle est la proposition fausse ?",
@@ -13150,6 +14254,164 @@
     },
     "Médecine physique et de réadaptation (MPR)": {
       "Pec en mpr": {
+        "2027": [
+          {
+            "question": "M. R., 34 ans, maçon, footballeur amateur, sans antécédent notable. Il y a 6 semaines, accident de la voie publique avec écrasement de la jambe gauche : amputation Trans tibiale gauche au tiers moyen, avec ostéomyoplastie et cicatrice postérieure. La cicatrisation a été obtenue à J20, sans complication. Il est adressé en MPR car il n’est pas encore appareillé. À l’examen : moignon œdématié, de volume variable d’un jour à l’autre ; cicatrice plane, non adhérente. Le genou gauche est maintenu en flexion de 15°, réductible passivement ; le patient dort avec un oreiller sous le genou. Il décrit la sensation que son pied est toujours là, non douloureuse, ainsi que des décharges électriques dans le « pied absent », 3 à 4 fois par jour (EVA 6/10), qui le réveillent la nuit. La percussion de l’extrémité distale du moignon déclenche des décharges irradiant vers le « pied ». Le membre controlatéral et l’état général sont normaux. Il est très motivé : il souhaite reprendre son métier et le football. Concernant le niveau d’amputation de M. R. :",
+            "options": [
+              "Il s’agit d’une amputation Trans tibiale au tiers moyen.",
+              "Conserver le genou rend la marche plus économique (surcoût énergétique d’environ 25 % contre environ 65 % pour un amputé transfémoral traumatique).",
+              "Le niveau d’amputation doit rester dans une zone bien vascularisée pour assurer la cicatrisation.",
+              "Il s’agit d’une désarticulation du genou."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "M. R., 34 ans, maçon, footballeur amateur, sans antécédent notable. Il y a 6 semaines, accident de la voie publique avec écrasement de la jambe gauche : amputation Trans tibiale gauche au tiers moyen, avec ostéomyoplastie et cicatrice postérieure. La cicatrisation a été obtenue à J20, sans complication. Il est adressé en MPR car il n’est pas encore appareillé. À l’examen : moignon œdématié, de volume variable d’un jour à l’autre ; cicatrice plane, non adhérente. Le genou gauche est maintenu en flexion de 15°, réductible passivement ; le patient dort avec un oreiller sous le genou. Il décrit la sensation que son pied est toujours là, non douloureuse, ainsi que des décharges électriques dans le « pied absent », 3 à 4 fois par jour (EVA 6/10), qui le réveillent la nuit. La percussion de l’extrémité distale du moignon déclenche des décharges irradiant vers le « pied ». Le membre controlatéral et l’état général sont normaux. Il est très motivé : il souhaite reprendre son métier et le football. À propos de l’œdème et de l’attitude du genou :",
+            "options": [
+              "L’œdème est dû à l’insuffisance de la circulation veineuse et lymphatique et à la pesanteur.",
+              "L’oreiller placé sous le genou entretient le flexum et doit être supprimé.",
+              "Placer un coussin sous le moignon la nuit est recommandé pour drainer l’œdème.",
+              "L’œdème variable gêne l’emboîtage, ce qui justifie des emboîtures provisoires adaptées."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "M. R., 34 ans, maçon, footballeur amateur, sans antécédent notable. Il y a 6 semaines, accident de la voie publique avec écrasement de la jambe gauche : amputation Trans tibiale gauche au tiers moyen, avec ostéomyoplastie et cicatrice postérieure. La cicatrisation a été obtenue à J20, sans complication. Il est adressé en MPR car il n’est pas encore appareillé. À l’examen : moignon œdématié, de volume variable d’un jour à l’autre ; cicatrice plane, non adhérente. Le genou gauche est maintenu en flexion de 15°, réductible passivement ; le patient dort avec un oreiller sous le genou. Il décrit la sensation que son pied est toujours là, non douloureuse, ainsi que des décharges électriques dans le « pied absent », 3 à 4 fois par jour (EVA 6/10), qui le réveillent la nuit. La percussion de l’extrémité distale du moignon déclenche des décharges irradiant vers le « pied ». Le membre controlatéral et l’état général sont normaux. Il est très motivé : il souhaite reprendre son métier et le football. Concernant les douleurs de M. R. :",
+            "options": [
+              "Les décharges électriques ressenties dans le pied absent correspondent à une douleur du membre fantôme.",
+              "Les décharges déclenchées par la percussion de l’extrémité du moignon évoquent un névrome.",
+              "La douleur du membre fantôme est exceptionnelle : moins de 5 % des amputés.",
+              "Les douleurs fantômes sont toujours d’origine psychologique."
+            ],
+            "correct_option_ids": [
+              0,
+              1
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "M. R., 34 ans, maçon, footballeur amateur, sans antécédent notable. Il y a 6 semaines, accident de la voie publique avec écrasement de la jambe gauche : amputation Trans tibiale gauche au tiers moyen, avec ostéomyoplastie et cicatrice postérieure. La cicatrisation a été obtenue à J20, sans complication. Il est adressé en MPR car il n’est pas encore appareillé. À l’examen : moignon œdématié, de volume variable d’un jour à l’autre ; cicatrice plane, non adhérente. Le genou gauche est maintenu en flexion de 15°, réductible passivement ; le patient dort avec un oreiller sous le genou. Il décrit la sensation que son pied est toujours là, non douloureuse, ainsi que des décharges électriques dans le « pied absent », 3 à 4 fois par jour (EVA 6/10), qui le réveillent la nuit. La percussion de l’extrémité distale du moignon déclenche des décharges irradiant vers le « pied ». Le membre controlatéral et l’état général sont normaux. Il est très motivé : il souhaite reprendre son métier et le football. Concernant la prise en charge de ces douleurs :",
+            "options": [
+              "Les gabapentinoïdes font partie des traitements de la douleur fantôme.",
+              "La thérapie miroir et le TENS sont des moyens thérapeutiques.",
+              "Un névrome pathologique peut être extirpé, le bout nerveux étant enfoui dans le muscle.",
+              "Le seul traitement possible est la chirurgie du moignon."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "M. R., 34 ans, maçon, footballeur amateur, sans antécédent notable. Il y a 6 semaines, accident de la voie publique avec écrasement de la jambe gauche : amputation Trans tibiale gauche au tiers moyen, avec ostéomyoplastie et cicatrice postérieure. La cicatrisation a été obtenue à J20, sans complication. Il est adressé en MPR car il n’est pas encore appareillé. À l’examen : moignon œdématié, de volume variable d’un jour à l’autre ; cicatrice plane, non adhérente. Le genou gauche est maintenu en flexion de 15°, réductible passivement ; le patient dort avec un oreiller sous le genou. Il décrit la sensation que son pied est toujours là, non douloureuse, ainsi que des décharges électriques dans le « pied absent », 3 à 4 fois par jour (EVA 6/10), qui le réveillent la nuit. La percussion de l’extrémité distale du moignon déclenche des décharges irradiant vers le « pied ». Le membre controlatéral et l’état général sont normaux. Il est très motivé : il souhaite reprendre son métier et le football. Concernant l’appareillage et le projet de M. R. :",
+            "options": [
+              "Le premier appareil aurait dû être posé 15 à 21 jours après l’intervention, plaie cicatrisée : il faut appareiller sans attendre.",
+              "Un pied à restitution d’énergie est adapté à un niveau fonctionnel K3-K4 (adulte jeune, actif, sportif).",
+              "Le projet professionnel d’un maçon (efforts pénibles) est discuté tôt, en équipe pluridisciplinaire.",
+              "Au long cours, le suivi se limite à la prothèse : la peau, l’os et les articulations n’ont pas besoin de surveillance."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant l’anatomie fonctionnelle de la main :",
+            "options": [
+              "La main comprend 27 os : 8 carpiens, 5 métacarpiens et 14 phalanges.",
+              "Les interosseux palmaires écartent les doigts.",
+              "Les muscles extrinsèques sont les muscles de la force, les muscles intrinsèques ceux de la précision.",
+              "L’articulation trapézo-métacarpienne du pouce est une articulation trochléenne à un seul degré de liberté."
+            ],
+            "correct_option_ids": [
+              0,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant l’innervation de la main :",
+            "options": [
+              "Le nerf médian commande l’opposition du pouce.",
+              "La main en griffe des 4e et 5e doigts traduit une atteinte du nerf ulnaire.",
+              "La main de singe (atrophie thénarienne, pouce en adduction) traduit une atteinte du nerf ulnaire.",
+              "Une atteinte du nerf radial donne une main tombante avec une force de serrage effondrée."
+            ],
+            "correct_option_ids": [
+              0,
+              1,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "À propos de la physiologie de la préhension :",
+            "options": [
+              "Une prise comporte le transport, la préformation, la saisie, puis le maintien ou la manipulation.",
+              "L’extension passive du poignet ouvre les doigts (ténodèse).",
+              "La préformation débute après le contact avec l’objet.",
+              "Les mécanorécepteurs cutanés et la proprioception ajustent la force de serrage à l’objet."
+            ],
+            "correct_option_ids": [
+              0,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant la classification des prises :",
+            "options": [
+              "Boire un verre est une prise avec action.",
+              "Porter un plateau sur la paume est une prise aidée par la pesanteur.",
+              "Tourner une clé est une prise avec action.",
+              "Les prises digitales sont plus puissantes mais moins précises que les prises à pleine main."
+            ],
+            "correct_option_ids": [
+              1,
+              2
+            ],
+            "explanation": "",
+            "reviewed": false
+          },
+          {
+            "question": "Concernant l’évaluation et la prise en charge des troubles de la préhension :",
+            "options": [
+              "Le dynamomètre de Jamar mesure la force de serrage ; on retient la moyenne de trois mesures.",
+              "Le Box and Block test évalue la sensibilité de la main.",
+              "En cas de spasticité, la toxine botulique est associée à la rééducation et une nouvelle injection n’est pas faite avant 3 mois.",
+              "La thérapie par contrainte induite est proposée si une extension active minimale est présente."
+            ],
+            "correct_option_ids": [
+              0,
+              2,
+              3
+            ],
+            "explanation": "",
+            "reviewed": false
+          }
+        ],
         "2026": [
           {
             "question": "Concernant la verticalisation chez ce patient PC :",
