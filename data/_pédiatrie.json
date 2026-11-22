@@ -2,6 +2,41 @@
   "module": "🧸 pédiatrie",
   "lessons": {
     "anémies carentielles": {
+      "2027": [
+        {
+          "question": "Parmi les propositions suivantes concernant la clinique et les étiologies de la carence martiale chez l'enfant, quelle(s) est/sont la ou les proposition(s) exacte(s) ?",
+          "options": [
+            "Chez le nourrisson de 3 à 18 mois, le tableau clinique classique associe une pâleur cutanéo-muqueuse, une anorexie, un retard staturo-pondéral (RSP) et un souffle systolique anorganique.",
+            "Les atteintes trophiques des phanères (glossite, perlèche) sont des signes caractéristiques d'une carence en fer profonde et prolongée.",
+            "La présence d'une splénomégalie élimine d'emblée le diagnostic d'anémie ferriprive chez le nourrisson.",
+            "Chez le nourrisson, l'étiologie prédominante est la carence d'apport liée à un régime lacté exclusif ou prolongé sans diversification correcte."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant le traitement curatif et la prévention de la carence martiale pédiatrique, quelle(s) est/sont la ou les proposition(s) exacte(s) ?",
+          "options": [
+            "La posologie du traitement martial oral de substitution chez le nourrisson est de 5 à 10 mg/kg/jour de fer élément.",
+            "La durée optimale du traitement par fer oral est de 4 à 6 mois afin de corriger le chiffre d'hémoglobine et de reconstituer les réserves de l'organisme.",
+            "La supplémentation martiale préventive chez la femme enceinte doit être débutée dès le 4e mois de grossesse à raison de 50 mg/j de fer ferreux.",
+            "Les prématurés, les jumeaux et les dysmatures doivent recevoir une supplémentation systématique en fer oral dès le 1er mois de vie pendant la première année."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "L'anémie carentielle est définie (les bonnes réponses) :",
@@ -575,6 +610,38 @@
       ]
     },
     "anémies du nouveau-né": {
+      "2027": [
+        {
+          "question": "La transition de la vie intra-utérine à la vie extra-utérine nécessite la mise en place de mécanismes physiologiques d'adaptation chez le nouveau-né. Parmi les propositions suivantes, laquelle correspond aux principaux objectifs de ces mécanismes ?",
+          "options": [
+            "Assurer le bon déroulement de l'accouchement (eutocie).",
+            "Préserver l'intégrité et le bon fonctionnement du système nerveux central du nouveau-né.",
+            "Raccourcir la durée du travail au cours de l'accouchement.",
+            "Prolonger la durée du travail au cours de l'accouchement."
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "La cyanose néonatale peut avoir des origines variées. Dans certains cas, elle s'améliore sous oxygénothérapie, tandis que dans d'autres, elle y reste réfractaire. Parmi les étiologies suivantes, lesquelles peuvent entraîner une cyanose avec une détresse respiratoire s'améliorant sous oxygénothérapie ?",
+          "options": [
+            "Maladie des membranes hyalines",
+            "Tachypnée transitoire",
+            "Syndrome d'aspiration méconiale",
+            "Tétralogie de Fallot"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Les processus d'adaptation à la vie extra-utérine sont importants pour :",
@@ -797,6 +864,23 @@
       ]
     },
     "anémies hémolytiques": {
+      "2027": [
+        {
+          "question": "Concernant la prise en charge d'une crise vaso-occlusive (CVO) chez un drépanocytaire, quelle(s) est/sont la ou les proposition(s) exacte(s) ?",
+          "options": [
+            "L'oxygénothérapie lors de la prise en charge initiale d'une CVO n'est pas nécessaire sauf si détresse respiratoire.",
+            "Le traitement de la douleur lors d'une CVO repose sur une analgésie évaluée et adaptée par palier.",
+            "L'hyperhydratation constitue des mesures thérapeutiques fondamentales.",
+            "La prescription de diurétiques et de médicaments vasoconstricteurs est indiquée en première intention pour réduire l'œdème microvasculaire au cours de la CVO."
+          ],
+          "correct_option_ids": [
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Au cours de la forme majeure de la β-thalassémie chez l'enfant, la surcharge en fer est (QCM) :",
@@ -1309,6 +1393,39 @@
       ]
     },
     "arthrite juvénile idiopathique": {
+      "2027": [
+        {
+          "question": "L'arthrite juvénile idiopathique (AJI) est définie par, cochez les bonnes réponses :",
+          "options": [
+            "Une affection inflammatoire articulaire.",
+            "Un âge de survenue inférieur à 16 ans.",
+            "Une évolution depuis au moins 4 semaines.",
+            "Aucune étiologie détectable."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "L'AJI dans sa forme oligoarticulaire est, cochez les bonnes réponses :",
+          "options": [
+            "La plus fréquente des AJI.",
+            "L'atteinte de moins de 7 articulations dans les 6 premiers mois d'évolution.",
+            "Redoutable pour l'atteinte oculaire surtout si FAN positifs.",
+            "Complication rénale à rechercher systématiquement."
+          ],
+          "correct_option_ids": [
+            0,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "L'arthrite juvénile idiopathique (AJI) est définie par (Cochez la ou les réponses justes) :",
@@ -1622,6 +1739,22 @@
       ]
     },
     "asthme de l'enfant": {
+      "2027": [
+        {
+          "question": "Le diagnostic de l'asthme chez le nourrisson repose essentiellement sur :",
+          "options": [
+            "La spirométrie.",
+            "Le bilan allergologique.",
+            "La symptomatologie clinique et la réponse au traitement de fond.",
+            "La radiographie du thorax."
+          ],
+          "correct_option_ids": [
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Le diagnostic de l'asthme chez le nourrisson repose essentiellement sur :",
@@ -1723,6 +1856,24 @@
       ]
     },
     "bronchopneumopathies bactériennes": {
+      "2027": [
+        {
+          "question": "La staphylococcie pleuro-pulmonaire, cochez les bonnes réponses :",
+          "options": [
+            "Se caractérise cliniquement par une toux chronique",
+            "Se caractérise radiologiquement par la labilité des images",
+            "Touche surtout le nourrisson",
+            "Urgence diagnostique et thérapeutique"
+          ],
+          "correct_option_ids": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La staphylococcie pleuro-pulmonaire, les réponses justes :",
@@ -1995,6 +2146,36 @@
       ]
     },
     "bronchopneumopathies virales": {
+      "2027": [
+        {
+          "question": "Ces signes sont des signes de gravité de bronchiolite, sauf un lequel :",
+          "options": [
+            "Tachypnée supérieure à 40 cycles par minute.",
+            "Geignement expiratoire.",
+            "Cyanose.",
+            "Agitation ou léthargie"
+          ],
+          "correct_option_ids": [
+            0
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Les mesures thérapeutiques indiquées dans la prise en charge d'une bronchiolite, cochez les bonnes réponses :",
+          "options": [
+            "Les glucocorticoïdes.",
+            "Le sérum salé hypertonique nébulisé.",
+            "Les sirops antitussifs et mucolytiques.",
+            "Aucune réponse n'est juste"
+          ],
+          "correct_option_ids": [
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La mesure thérapeutique indiquée dans la prise en charge d'une bronchiolite :",
@@ -2243,6 +2424,24 @@
       ]
     },
     "constipation": {
+      "2027": [
+        {
+          "question": "Concernant la constipation chez l'enfant, quelles sont les propositions exactes ?",
+          "options": [
+            "La constipation fonctionnelle représente la forme la plus fréquente de constipation chez l'enfant.",
+            "Un retard d'émission du méconium au-delà de 48 heures chez un nouveau-né à terme constitue un signe d'alerte.",
+            "Un ralentissement staturo-pondéral est un argument en faveur d'une constipation fonctionnelle.",
+            "Les fissures anales peuvent être une complication de la constipation fonctionnelle."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Concernant l'encoprésie de l'enfant :",
@@ -2921,6 +3120,22 @@
       ]
     },
     "croissance normale de l'enfant": {
+      "2027": [
+        {
+          "question": "Concernant la croissance staturale normale de l'enfant :",
+          "options": [
+            "La vitesse de croissance est régulière de la naissance à la puberté.",
+            "La croissance est particulièrement rapide pendant les deux premières années de vie.",
+            "La croissance staturale in utéro est sous la dépendance de l'hormone de croissance.",
+            "La croissance s'arrête à l'âge de 13 ans chez les filles."
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La maturation osseuse chez l'enfant est évaluée par :",
@@ -4792,6 +5007,25 @@
       ]
     },
     "diarrhée aigue": {
+      "2027": [
+        {
+          "question": "Chez un nourrisson présentant une diarrhée chronique, quels éléments peuvent orienter vers une allergie aux protéines du lait de vache ?",
+          "options": [
+            "La présence de sang dans les selles.",
+            "Un ralentissement de la prise pondérale.",
+            "L'apparition des symptômes au cours des premiers mois de vie.",
+            "L'amélioration des symptômes après éviction des protéines du lait de vache."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Les Sels de Réhydratation Orale (SRO) ; Parmi les règles d'utilisation des SRO, lesquelles sont justes ?",
@@ -5613,6 +5847,38 @@
       ]
     },
     "diététique de l'enfant & allaitement maternel": {
+      "2027": [
+        {
+          "question": "Le colostrum est caractérisé par :",
+          "options": [
+            "La première forme du LF durant les 5 premiers jours après l'accouchement",
+            "Très riche en immunoglobulines",
+            "La seule forme du LF",
+            "Peut donner un ictère précoce au lait de mère"
+          ],
+          "correct_option_ids": [
+            0,
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Parmi les contre-indications absolues de l'allaitement maternel : les bonnes réponses :",
+          "options": [
+            "La galactosémie congénitale",
+            "APLV",
+            "Ictère au lait de mère",
+            "VIH chez la mère"
+          ],
+          "correct_option_ids": [
+            0,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Concernant la diversification alimentaire chez le nourrisson de 6 mois exclusivement allaité au sein, on souhaite débuter : les propositions justes",
@@ -6654,6 +6920,55 @@
       ]
     },
     "détresse respiratoire du nouveau-né": {
+      "2027": [
+        {
+          "question": "Dans le cadre de la détresse respiratoire néonatale, les signes de lutte respiratoire sont évalués à l'aide du score de Silverman-Andersen, qui repose sur cinq paramètres cliniques. Parmi les propositions suivantes, lesquelles ne font pas partie des paramètres évalués par ce score ?",
+          "options": [
+            "Entonnoir xiphoïdien",
+            "Geignement expiratoire",
+            "Tirage intercostal",
+            "Cyanose péribuccale"
+          ],
+          "correct_option_ids": [
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant les étiologies des détresses respiratoires de l'enfant :",
+          "options": [
+            "Une détresse respiratoire d'installation brutale doit faire rechercher un syndrome d'inhalation.",
+            "Une détresse respiratoire associée à une voix rauque oriente vers une atteinte des voies aériennes supérieures.",
+            "Une détresse respiratoire sans signes de lutte peut s'observer au cours d'un état de choc.",
+            "Une hypoglycémie peut être à l'origine d'une détresse respiratoire d'origine métabolique."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant la prise en charge initiale d'une détresse respiratoire aiguë chez l'enfant :",
+          "options": [
+            "La mise en position proclive fait partie des premières mesures.",
+            "La désobstruction des voies aériennes supérieures peut être réalisée avec du sérum physiologique.",
+            "La sédation systématique permet de diminuer le travail respiratoire et doit être instaurée précocement.",
+            "L'arrêt temporaire de l'alimentation orale est indiqué en phase aiguë."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La détresse respiratoire néonatale ; les bonnes réponses :",
@@ -7581,6 +7896,55 @@
       ]
     },
     "développement psychomoteur": {
+      "2027": [
+        {
+          "question": "Concernant le développement psychomoteur normal de l'enfant :",
+          "options": [
+            "La tenue assise sans appui est acquise vers 3 mois",
+            "La marche autonome est habituellement acquise avant 18 mois",
+            "Le sourire-réponse apparaît vers 2 mois",
+            "La pince pouce-index apparaît vers 15 mois"
+          ],
+          "correct_option_ids": [
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant le retard du développement psychomoteur :",
+          "options": [
+            "Il peut être isolé ou global",
+            "Une prématurité doit toujours être corrigée dans l'évaluation",
+            "Une IRM cérébrale est systématique dans tous les cas",
+            "Les causes génétiques sont fréquentes"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Les signes pouvant évoquer un retard du développement psychomoteur sont :",
+          "options": [
+            "Absence de tenue de tête à 6 mois",
+            "Absence de marche à 24 mois",
+            "Perte d'acquisitions motrices",
+            "Absence de sourire social à 2 mois"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Parmi les signes suivants, lesquels doivent faire suspecter un retard du développement psychomoteur ?",
@@ -8240,6 +8604,39 @@
       ]
     },
     "eruption fébrile": {
+      "2027": [
+        {
+          "question": "Au cours de la rougeole chez l'enfant, quelle(s) est (sont) la (les) complication(s) possible(s) :",
+          "options": [
+            "Convulsions",
+            "Épilepsie",
+            "Méningite",
+            "Encéphalite"
+          ],
+          "correct_option_ids": [
+            0,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Dans la maladie de Kawasaki, on trouve :",
+          "options": [
+            "Fièvre",
+            "Exanthème maculo-papuleux",
+            "Adénopathie inguinale",
+            "Conjonctivite aseptique"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Au cours de la rougeole, la ou les réponse(s) juste(s) :",
@@ -8531,6 +8928,38 @@
       ]
     },
     "hypothyroïdie": {
+      "2027": [
+        {
+          "question": "Le nouveau-né atteint d'athyréose peut présenter tous les signes suivants sauf un, lequel :",
+          "options": [
+            "Retard d'élimination du méconium",
+            "Petit poids de naissance",
+            "Ictère prolongé",
+            "Hernie ombilicale"
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Quels sont les signes évocateurs de maladie de Basedow ?",
+          "options": [
+            "Goitre nodulaire vasculaire douloureux",
+            "Signes d'hyperthyroïdie",
+            "Éclat du regard",
+            "Goitre homogène vasculaire non douloureux"
+          ],
+          "correct_option_ids": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Dans l'hypothyroïdie congénitale primaire :",
@@ -8964,6 +9393,69 @@
       ]
     },
     "ictère du nouveau-né": {
+      "2027": [
+        {
+          "question": "Parmi les caractéristiques cliniques suivantes d'un ictère néonatal, lesquelles orientent vers un ictère bénin :",
+          "options": [
+            "Survenue précoce de l'ictère dans les 24 premières heures de vie.",
+            "Durée < 10 jours.",
+            "Selles décolorées.",
+            "Ictère à bilirubine libre."
+          ],
+          "correct_option_ids": [
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Parmi les causes des ictères à bilirubine libre : (cocher les fausses réponses) :",
+          "options": [
+            "Atrésie des voies biliaires extra-hépatique",
+            "Mucoviscidose",
+            "Polyglobulie",
+            "Résorption d'hématomes"
+          ],
+          "correct_option_ids": [
+            0,
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "La maladie hémolytique du nouveau-né : (cocher les bonnes réponses) :",
+          "options": [
+            "Incompatibilité mère nouveau-né dans le système rhésus",
+            "Incompatibilité dans les groupes ABO",
+            "Donne un ictère à bilirubine libre et précoce",
+            "Aucune mesure préventive"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Les complications possibles des ictères en période néonatale : (cocher les bonnes réponses) :",
+          "options": [
+            "Ictère nucléaire sans relation avec le type de bilirubine",
+            "La cirrhose hépatique pour AVBP si pas de traitement chirurgical avant la 6e semaine de vie",
+            "Anémie aiguë avec défaillance cardiaque",
+            "Infection néonatale"
+          ],
+          "correct_option_ids": [
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Parmi les causes des ictères à bilirubine libre (cochez les fausses réponses) :",
@@ -9793,6 +10285,41 @@
       ]
     },
     "infections du nouveau-né et infections materno foetales": {
+      "2027": [
+        {
+          "question": "L'infection néonatale bactérienne constitue un véritable problème de santé publique en Algérie. Son diagnostic repose sur l'association de signes cliniques et d'arguments paracliniques. Parmi les paramètres hématologiques suivants, lesquels peuvent orienter vers une infection néonatale bactérienne ?",
+          "options": [
+            "Hyperleucocytose",
+            "Neutropénie",
+            "Polyglobulie",
+            "Thrombopénie"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "L'infection néonatale bactérienne tardive survient après les premiers jours de vie, particulièrement chez les nouveau-nés prématurés hospitalisés en unité de néonatologie ou de réanimation néonatale. Parmi les propositions suivantes, lesquelles constituent des facteurs de risque d'infection néonatale bactérienne tardive ?",
+          "options": [
+            "Recours à une alimentation parentérale chez un nouveau-né hospitalisé.",
+            "Ventilation mécanique chez un nouveau-né hospitalisé.",
+            "Mise en place d'un cathéter veineux ombilical chez un nouveau-né hospitalisé.",
+            "Présence d'une malformation congénitale de l'arbre urinaire."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Parmi les signes cliniques suivants, lesquels peuvent être compatibles avec une infection néonatale ?",
@@ -10286,6 +10813,37 @@
       ]
     },
     "infections respiratoires hautes": {
+      "2027": [
+        {
+          "question": "Angine érythémateuse chez un enfant de moins de 3 ans, cochez les bonnes réponses :",
+          "options": [
+            "Est souvent d'origine virale.",
+            "Traitement symptomatique, pas d'antibiotiques",
+            "Traitement à base d'amoxicilline 100 mg/kg/j.",
+            "Le RAA est la complication la plus redoutable."
+          ],
+          "correct_option_ids": [
+            0,
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Les complications d'une otite moyenne aiguë (OMA), toutes les réponses sont justes sauf une laquelle :",
+          "options": [
+            "Méningite.",
+            "Paralysie faciale.",
+            "Insuffisance cardiaque.",
+            "Thrombophlébite cérébrale."
+          ],
+          "correct_option_ids": [
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Une dyspnée inspiratoire chez le nourrisson :",
@@ -11761,6 +12319,22 @@
       ]
     },
     "la puberté": {
+      "2027": [
+        {
+          "question": "Le premier signe clinique habituel de la puberté chez la fille est :",
+          "options": [
+            "L'apparition des premières règles.",
+            "L'apparition d'une pilosité pubienne.",
+            "Le développement mammaire (thélarche).",
+            "L'apparition d'une acné."
+          ],
+          "correct_option_ids": [
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2025": [
         {
           "question": "Concernant les troubles pubertaires chez l'enfant :",
@@ -11992,6 +12566,22 @@
       ]
     },
     "maladie cœliaque": {
+      "2027": [
+        {
+          "question": "Un enfant de 2 ans présente une diarrhée chronique, un ballonnement abdominal et un ralentissement staturo-pondéral. Une maladie cœliaque est suspectée. Quel examen sérologique doit être demandé en première intention ?",
+          "options": [
+            "Dosage des IgA anti-transglutaminase tissulaire associé aux IgA totales.",
+            "Dosage des anticorps anti-Saccharomyces cerevisiae (ASCA).",
+            "Dosage des IgE spécifiques du gluten.",
+            "Dosage des anticorps anti-cellules pariétales gastriques."
+          ],
+          "correct_option_ids": [
+            0
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Les propositions concernant la maladie cœliaque :",
@@ -12543,6 +13133,38 @@
       ]
     },
     "malnutrition protéino-energétique (mpe)": {
+      "2027": [
+        {
+          "question": "Le kwashiorkor est caractérisé par :",
+          "options": [
+            "Une absence totale d'œdèmes.",
+            "Des œdèmes bilatéraux prenant le godet.",
+            "Un appétit conservé.",
+            "Trouble de pigmentation cutanée."
+          ],
+          "correct_option_ids": [
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Chez un nourrisson présentant une malnutrition aiguë sévère, la prise en charge initiale doit notamment comporter :",
+          "options": [
+            "Une réalimentation hypercalorique hyperprotidique immédiate.",
+            "Une correction prudente des troubles métaboliques et hydroélectrolytiques.",
+            "Une supplémentation en oligoéléments et vitamines.",
+            "Une administration systématique d'un traitement antibiotique."
+          ],
+          "correct_option_ids": [
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Dans le kwashiorkor :",
@@ -13130,6 +13752,38 @@
       ]
     },
     "méningites": {
+      "2027": [
+        {
+          "question": "Un nourrisson de 10 mois est amené pour une suspicion de méningite bactérienne. L'examen direct du LCR montre des cocci Gram positif en flamme de bougie. Quel schéma thérapeutique probabiliste initial devez-vous appliquer immédiatement ?",
+          "options": [
+            "Céfotaxime 200 mg/kg/j 7 jours, sans corticoïdes",
+            "Aciclovir 15 mg/kg/8 h IV 14 jours",
+            "Céfotaxime 200 mg/kg/j + Dexaméthasone",
+            "Amoxicilline 200 mg/kg/j en monothérapie 7 jours"
+          ],
+          "correct_option_ids": [
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Quels sont les éléments thérapeutiques et de prise en charge indiqués face à une méningo-encéphalite herpétique ?",
+          "options": [
+            "C'est une urgence diagnostique et thérapeutique en raison d'un risque élevé de mortalité et de séquelles neurologiques graves.",
+            "Le traitement antiviral de référence repose sur l'aciclovir à la posologie de 10-15 mg/kg toutes les 8 heures pendant 10 à 21 jours selon la gravité.",
+            "L'administration d'anticonvulsivants est indiquée en cas de crises convulsives.",
+            "Une intubation et une ventilation doivent être réalisées même en l'absence d'un coma."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La méningite virale chez l'enfant ; les bonnes réponses :",
@@ -13764,6 +14418,40 @@
       ]
     },
     "prématurité": {
+      "2027": [
+        {
+          "question": "Concernant la définition et les degrés de prématurité, quelle(s) est/sont la ou les proposition(s) exacte(s) ?",
+          "options": [
+            "La prématurité est définie par toute naissance survenant avant 37 semaines d'aménorrhée (SA) révolues.",
+            "Un nouveau-né est qualifié de grand prématuré lorsque son âge gestationnel est strictement inférieur à 28 SA.",
+            "Le terme de « prématurissime » s'applique aux enfants nés avant 28 SA.",
+            "La prématurité spontanée représente environ 70 % de l'ensemble des cas de prématurité."
+          ],
+          "correct_option_ids": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant les risques immédiats et les complications spécifiques du prématuré, quelle(s) est/sont la ou les proposition(s) exacte(s) ?",
+          "options": [
+            "L'absence de réserves constituées au 3e trimestre expose le prématuré à l'hypoglycémie, l'hypocalcémie et l'hypothermie.",
+            "La maladie des membranes hyalines (MMH) est liée à un déficit quantitatif ou qualitatif en surfactant pulmonaire.",
+            "L'entérocolite ulcéro-nécrosante (ECUN) est une complication digestive sévère",
+            "Le prématuré dispose d'une maturité immunologique complète à la naissance, le protégeant des infections bactériennes."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Un nouveau-né prématuré est caractérisé par : (QCM)",
@@ -13852,6 +14540,40 @@
       ]
     },
     "raa de l'enfant": {
+      "2027": [
+        {
+          "question": "Concernant les manifestations cliniques du RAA :",
+          "options": [
+            "La polyarthrite est habituellement migratrice et fugace.",
+            "Elle touche préférentiellement les grosses articulations.",
+            "Elle entraîne habituellement des déformations articulaires définitives.",
+            "La cardite peut être une manifestation précoce et sévère."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant la prévention secondaire du RAA :",
+          "options": [
+            "Elle repose principalement sur la benzathine benzylpénicilline.",
+            "Les injections sont administrées toutes les 21 jours.",
+            "La dose recommandée chez un enfant de moins de 30 kg est de 0,6 million d'unités.",
+            "La dose recommandée chez un enfant de 30 kg ou plus est de 0,6 million d'unités."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Parmi les critères suivants, lequel ne fait pas partie des critères mineurs de Jones 2015 (population à faible risque) :",
@@ -14569,6 +15291,38 @@
       ]
     },
     "rachitisme carentiel": {
+      "2027": [
+        {
+          "question": "À propos du rachitisme carentiel, cocher la (les) réponse(s) juste(s) :",
+          "options": [
+            "Résulte d'un défaut de minéralisation osseuse",
+            "Prédominance masculine",
+            "Peut se voir chez le malnutri",
+            "Peut se compliquer de laryngospasme"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Selon le programme national algérien de lutte contre le rachitisme carentiel, la vitamine D3 est prescrite, cochez la (les) réponse(s) juste(s) :",
+          "options": [
+            "À la naissance et à l'âge de 2 mois",
+            "À l'âge de 1 mois et 5 mois",
+            "À l'âge de 1 mois et 6 mois",
+            "À l'âge de 1 mois et 12 mois"
+          ],
+          "correct_option_ids": [
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "À propos du rachitisme carentiel, cocher la (les) réponse(s) juste(s) :",
@@ -15224,6 +15978,55 @@
       ]
     },
     "retard de croissance intra utérin": {
+      "2027": [
+        {
+          "question": "Concernant le retard de croissance intra-utérin (RCIU) et le petit poids pour l'âge gestationnel (PAG), quelles sont les propositions exactes ?",
+          "options": [
+            "Le RCIU est défini par un poids fœtal estimé inférieur au 10e percentile pour l'âge gestationnel.",
+            "Le PAG est défini par un poids de naissance inférieur au 20e percentile.",
+            "Tout nouveau-né PAG présente obligatoirement un RCIU.",
+            "Le RCIU traduit une diminution de la vitesse de croissance fœtale."
+          ],
+          "correct_option_ids": [
+            0,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Parmi les facteurs suivants, lesquels peuvent être responsables d'un RCIU d'origine maternelle ou utéro-placentaire ?",
+          "options": [
+            "Hypertension artérielle maternelle.",
+            "Diabète maternel avec vasculopathie.",
+            "Anomalies d'implantation placentaire, notamment placenta prævia.",
+            "Tabagisme maternel."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Le RCIU dysharmonieux se caractérise par ; cochez la mauvaise réponse :",
+          "options": [
+            "Correspond à un ralentissement de croissance dès l'organogenèse",
+            "Secondaire à une réduction du support de croissance",
+            "Seulement la taille est touchée mais le poids et le périmètre crânien restent normaux",
+            "Les anomalies en cause sont souvent d'origine utéroplacentaire"
+          ],
+          "correct_option_ids": [
+            0,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Concernant le retard de croissance intra-utérin « RCIU », les bonnes réponses :",
@@ -15414,6 +16217,41 @@
       ]
     },
     "syndrome hémorragique de l'enfant": {
+      "2027": [
+        {
+          "question": "Concernant le purpura thrombopénique immunologique (PTI) :",
+          "options": [
+            "Il survient souvent après une infection virale",
+            "La thrombopénie est habituellement isolée",
+            "Une splénomégalie importante est fréquente",
+            "Le risque majeur est l'hémorragie intracrânienne"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant l'hémophilie :",
+          "options": [
+            "L'hémophilie A correspond à un déficit en facteur VIII",
+            "Le TCA est souvent allongé",
+            "Les hémarthroses sont fréquentes dans les formes sévères",
+            "Elle touche principalement les garçons"
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Un allongement isolé du TCA (temps de céphaline activé) évoque principalement :",
@@ -17802,6 +18640,37 @@
       ]
     },
     "tuberculose de l'enfant": {
+      "2027": [
+        {
+          "question": "Au terme de la tuberculose chez l'enfant ; cochez la ou les bonne(s) réponse(s) :",
+          "options": [
+            "La tuberculose demeure un problème de santé publique en Algérie.",
+            "L'agent causal est représenté principalement par le Mycobacterium bovis.",
+            "La contamination se fait essentiellement par voie aérienne à l'occasion de la toux, éternuement ou de la parole de personne à personne par de microgouttelettes.",
+            "La prévention repose seulement sur la chimioprophylaxie des sujets en contact et le dépistage des sources de contamination."
+          ],
+          "correct_option_ids": [
+            0,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Les particularités de la tuberculose chez l'enfant ; cochez la ou les réponse(s) fausse(s) :",
+          "options": [
+            "L'enfant est pauci-bacillaire.",
+            "La lésion tuberculeuse de l'enfant peut se localiser dans n'importe quelle partie des poumons, celle de l'adulte choisit plutôt les sommets.",
+            "Chez l'enfant les ganglions lymphatiques sont atteints de façon importante.",
+            "Les disséminations graves ; méningite, miliaire hématogène, sont beaucoup plus rares chez l'enfant que chez l'adulte."
+          ],
+          "correct_option_ids": [
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Mode de transmission de la tuberculose chez l'enfant ? (Cochez les réponses justes)",
@@ -18036,6 +18905,24 @@
       ]
     },
     "urgences chirurgicales du nouveau-né": {
+      "2027": [
+        {
+          "question": "L'atrésie de l'œsophage est une malformation congénitale pouvant se manifester dès la naissance par une détresse respiratoire et nécessiter une prise en charge chirurgicale urgente. Parmi les propositions suivantes, quels sont les éléments cliniques et anamnestiques orientant vers le diagnostic d'une atrésie de l'œsophage ?",
+          "options": [
+            "Test de la seringue positif.",
+            "Impossibilité de faire progresser une sonde oro-gastrique n° 8 jusqu'à l'estomac.",
+            "Hypersialorrhée avec encombrement bucco-pharyngé.",
+            "Antécédent d'hydramnios maternel pendant la grossesse."
+          ],
+          "correct_option_ids": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Parmi les causes digestives suivantes, laquelle est typiquement associée à un retard d'émission du méconium chez le nouveau-né et à un mégacôlon ?",
@@ -18506,6 +19393,52 @@
       ]
     },
     "vaccination": {
+      "2027": [
+        {
+          "question": "Quel est le nouveau vaccin introduit dans le calendrier vaccinal national 2023 :",
+          "options": [
+            "Anti-poliomyélitique injectable",
+            "Anti-coquelucheux acellulaire",
+            "Anti-rubéoleux",
+            "Anti-pneumocoque"
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Anis âgé de 11 mois, sans antécédents personnels, jamais vacciné, est programmé pour une séance de rattrapage vaccinal. Quels vaccins pourrait-il recevoir :",
+          "options": [
+            "DTCaVPI-Hib-HBV + anti-pneumococcique (VPC)",
+            "DTCaVPI-Hib-HBV + anti-pneumococcique (VPC) + VPO + BCG + ROR",
+            "DTCaVPI-Hib-HBV + anti-pneumococcique (VPC) + VPO",
+            "DTCaVPI-Hib-HBV + anti-pneumococcique (VPC) + VPO + BCG + ROR + VPO"
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Concernant les associations vaccinales et le rattrapage vaccinal, quelles sont les propositions exactes ?",
+          "options": [
+            "Tous les vaccins inactivés peuvent être administrés le même jour.",
+            "Tous les vaccins vivants peuvent être administrés le même jour.",
+            "Les injections réalisées au cours de la même séance doivent être effectuées en des sites différents, séparés de 2,5 cm.",
+            "Une vaccination interrompue nécessite de recommencer tout le calendrier vaccinal."
+          ],
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "La vaccination par le BCG :",
@@ -19154,6 +20087,50 @@
       ]
     },
     "vomissements de l'enfant": {
+      "2027": [
+        {
+          "question": "Parmi les propositions suivantes, laquelle distingue fondamentalement la régurgitation du vomissement vrai chez le nourrisson ?",
+          "options": [
+            "Le rejet est passif et s'effectue sans effort ni contraction abdominale synchronisée.",
+            "L'émission systématique d'un liquide bilieux de coloration verdâtre.",
+            "L'association obligatoire à un fléchissement de la courbe staturo-pondérale.",
+            "La présence constante de prodromes tels que la pâleur, les sueurs et l'hypersalivation."
+          ],
+          "correct_option_ids": [
+            0
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Devant des vomissements chez un nourrisson, quel signe d'alarme clinique indique en priorité une urgence chirurgicale d'occlusion haute ?",
+          "options": [
+            "Un développement staturo-pondéral parfaitement régulier sur le carnet de santé.",
+            "La coloration bilieuse (vert clair ou vert foncé) du liquide émis.",
+            "La survenue de pleurs vespéraux isolés calmés par le portage.",
+            "La présence d'un érythème fessier modéré associé à une poussée dentaire."
+          ],
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "",
+          "reviewed": false
+        },
+        {
+          "question": "Quel tableau clinique et paraclinique oriente préférentiellement vers une sténose hypertrophique du pylore chez un nourrisson d'un mois ?",
+          "options": [
+            "Vomissements alimentaires en jet, post-prandiaux tardifs, avec appétit conservé, confirmés à l'échographie.",
+            "Vomissements bilieux dès les premières heures de vie associés à un retard d'évacuation méconiale.",
+            "Accès de pleurs paroxystiques accompagnés de selles en « gelée de groseille ».",
+            "Régurgitations passives survenant uniquement lors des changements de position sans altération générale."
+          ],
+          "correct_option_ids": [
+            0
+          ],
+          "explanation": "",
+          "reviewed": false
+        }
+      ],
       "2026": [
         {
           "question": "Les complications possibles des vomissements chroniques du nourrisson comprennent :",
