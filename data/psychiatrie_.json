@@ -1243,14 +1243,17 @@
           ]
         },
         {
-          "question": "Le trouble du spectre de l'autisme est: [note: aucune réponse indiquée dans le document source]",
+          "question": "Le trouble du spectre de l'autisme est:",
           "options": [
             "Un trouble neurologique précoce",
             "Un ensemble de caractéristiques qui apparaissent à l'âge de 3 ans",
             "Un trouble dont le noyau est fait de distortion sensorielle",
             "S'accompagne rarement d'un trouble mental"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "Trouble neurodéveloppemental dont les symptômes apparaissent avant 36 mois ; les comorbidités psychiatriques sont fréquentes."
         },
         {
           "question": "Les modalités thérapeutiques de l'autisme sont:",
@@ -1472,11 +1475,6 @@
           "correct_option_ids": [
             3
           ]
-        },
-        {
-          "question": "La triade symptomatique de l'autisme ? (QROC) [QROC - question ouverte, sans options]",
-          "options": [],
-          "correct_option_ids": []
         },
         {
           "question": "Le retrait autistique est un :",
@@ -3929,13 +3927,6 @@
           "correct_option_ids": [
             0
           ]
-        }
-      ],
-      "2018": [
-        {
-          "question": "Le syndrome catatonique se manifeste par ? (QROC - question à réponse ouverte courte, pas de choix multiples)",
-          "options": [],
-          "correct_option_ids": []
         }
       ],
       "Non datées": [
@@ -6781,7 +6772,10 @@
             "Une capacité de croyance",
             "Une incapacité de raisonnement et de jugement"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "Le délire se caractérise par une conviction inébranlable et une incapacité de critique et d'autocritique."
         },
         {
           "question": "Cochez la (les) réponse(s) juste(s): L'état psychotique aigu possède des caractéristiques cliniques:",
@@ -6791,7 +6785,11 @@
             "Il est différent de l'accès maniaque",
             "Il est vécu de façon intense par le sujet"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            0,
+            3
+          ],
+          "explanation": "Tableau polymorphe, changeant dans le temps (mécanismes mobiles), vécu de façon intense (anxiété, perplexité) ; évolution brève, non chronique."
         },
         {
           "question": "Cochez la (les) réponse(s) juste(s): L'hallucination est une perception:",
@@ -6801,7 +6799,10 @@
             "d'un objet existant réel mais déformé",
             "Un objet tranchant"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            0
+          ],
+          "explanation": "L'hallucination est une perception sans objet (objet inexistant)."
         },
         {
           "question": "Cochez la (les) réponse(s) juste(s): La durée d'évolution du trouble psychotique aigu transitoire selon la CIM 10 est:",
@@ -6811,7 +6812,10 @@
             "Egale à 6 mois",
             "Egale à 3 mois"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            1
+          ],
+          "explanation": "CIM-10 (F23) : trouble psychotique aigu et transitoire de durée inférieure à 3 mois."
         },
         {
           "question": "Cochez la (les) réponse(s) juste(s): Le traitement prophylactique par le lithium est envisagée dans:",
@@ -6821,7 +6825,11 @@
             "L'accès confusionnel",
             "Les décompensations dépressives"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            0,
+            3
+          ],
+          "explanation": "Thymorégulateur envisagé en prophylaxie en cas de récidives de la psychose délirante aiguë (évolution thymique) et de décompensations dépressives récurrentes. Réponse à confirmer avec l'enseignant."
         },
         {
           "question": "Cochez la (les) réponse(s) juste(s): Les caractéristiques cliniques du délire sont:",
@@ -6831,7 +6839,12 @@
             "La structure",
             "La rechute"
           ],
-          "correct_option_ids": []
+          "correct_option_ids": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les caractéristiques du délire : thème, mécanisme et structure (systématisation)."
         }
       ]
     },
